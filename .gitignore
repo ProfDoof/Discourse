@@ -363,4 +363,8 @@ MigrationBackup/
 FodyWeavers.xsd
 
 # appsettings
-**/appsettings.*
+**/appsettings*.json
+
+# git secret
+.gitsecret/keys/random_seed
+!*.secret
